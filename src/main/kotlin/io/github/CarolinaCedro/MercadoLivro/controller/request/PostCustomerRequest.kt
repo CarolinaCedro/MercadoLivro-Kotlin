@@ -1,4 +1,7 @@
 package io.github.CarolinaCedro.MercadoLivro.controller.request
 
-class PostCustomerRequest {
-}
+data class PostCustomerRequest(
+    var name: String,
+    var email: String
+
+)
