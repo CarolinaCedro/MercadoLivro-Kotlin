@@ -9,6 +9,10 @@ spring:
     password: root
   jackson:
     default-property-inclusion: non_ null
+  spring:
+    flyway:
+      locations: sql
+
 
 #jwt:
 #  secret: 2c57cf3a-c804-4dc5-8cd4-93b8d8581948
